@@ -12,7 +12,7 @@ if [[ $FILE_CONTENT != 0 ]]; then
 else
   printf "${BRed}Bad Commit ${BBlue}\n"
   printf "${BRed}Please add proper commit message and try again ${BBlue}\n"
-  printf "commit-msg hook failed (add --no-verify to bypass)\n"
+  # printf "commit-msg hook failed (add --no-verify to bypass)\n"
  
 exit 1
 fi
