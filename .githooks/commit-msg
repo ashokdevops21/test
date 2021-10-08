@@ -6,6 +6,7 @@ BGreen="\033[1;32m"       # Green
 BBlue="\033[1;34m"        # Blue
 
 
+
 MSG_FILE=$1
 FILE_CONTENT="$(cat $MSG_FILE | wc -l)"
 if [[ $FILE_CONTENT != 0 ]]; then
