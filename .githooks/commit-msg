@@ -15,5 +15,6 @@ else
   # printf "commit-msg hook failed (add --no-verify to bypass)\n"
  
 exit 1
+
 fi
 exit 0
